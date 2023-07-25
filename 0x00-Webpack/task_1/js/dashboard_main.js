@@ -14,4 +14,4 @@ $(function() {
     }
 
     $('button').on('click', _.debounce(updateCounter, 1000));
-}
+});
